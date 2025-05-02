@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Output
+dist/
+build/
+
+# Env files
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.test
+.env.production
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS/IDE specific
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# ts-node / cache
+*.tsbuildinfo
+
+# Coverage / test
+coverage/
